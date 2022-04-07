@@ -72,14 +72,16 @@ div img {
 .descrizione {
     float: left;
     padding-left: 10px;
+    text-align: left;
 }
 
 p.nome {
     font-size: 15px;
+    font-weight: bolder;
 }
 
 p.titolo {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 p.mail {
