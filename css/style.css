@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.5rem 0;
+}
+p {
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    color: #e53170;
+}
+
+main > div {
+    text-align: center;
+    margin: 30px 300px;
+}
+
+div img {
+    height: 80px;
+    float: left;
+}
+
+.lorem {
+    font-size: 20px;
+}
+
+.cards {
+    float: left;
+    background-color: #0f0e17;
+    color: white;
+    width: calc((100% / 3) - 30px);
+    margin: 20px 15px;
+    height: 80px;
+}
+
+.up {
+    margin-bottom: 20px;
+}
+
+.down {
+    margin-top: 20px;
+}
+
+.descrizione {
+    float: left;
+    padding-left: 10px;
+}
+
+p.nome {
+    font-size: 15px;
+}
+
+p.titolo {
+    font-size: 10px;
+}
+
+p.mail {
+    color: #57b7df;
+    font-size: 12px;
+}
